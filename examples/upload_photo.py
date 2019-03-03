@@ -5,9 +5,9 @@
 
 from InstagramAPI import InstagramAPI
 
-InstagramAPI = InstagramAPI("login", "password")
+InstagramAPI = InstagramAPI("jnqov4", "MjYads9Yd22upWi")
 InstagramAPI.login()  # login
 
-photo_path = '/path/to/photo.jpg'
-caption = "Sample photo"
+photo_path = '0001.jpg'
+caption = "#dank #dankmeme #dankest #dankmemesargentina #dankentina"
 InstagramAPI.uploadPhoto(photo_path, caption=caption)
